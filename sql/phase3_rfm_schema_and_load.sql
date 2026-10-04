@@ -1,6 +1,6 @@
--- Phase 3, Step 1: MySQL schema and CSV load for RFM customer analytics.
--- Run against a new/empty MySQL database. This script intentionally contains
--- no analytical queries.
+-- RFM Customer Analytics: Schema and Data Load (MySQL)
+-- Creates the rfm_customers and retail_transactions tables.
+-- Run this first, against a new/empty database, before the analytical queries.
 
 CREATE TABLE rfm_customers (
     customer_id INT UNSIGNED NOT NULL,
