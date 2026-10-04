@@ -1,6 +1,6 @@
--- Phase 3, Step 2: Analytical SQL queries for RFM customer analytics.
--- Run against rfm_project database after phase3_rfm_schema_and_load.sql
--- has been executed and verified (5,878 customers, 779,425 transactions).
+-- RFM Customer Analytics: Analytical Queries (MySQL)
+-- Requires the tables from phase3_rfm_schema_and_load.sql.
+-- Dataset: 5,878 customers, 779,425 transactions.
 
 -- ==================================================
 -- Q1. Revenue and customer count by segment
